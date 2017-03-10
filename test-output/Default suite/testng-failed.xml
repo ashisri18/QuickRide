@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.quickride.scripts.RechargeEncashTest">
+        <methods>
+          <include name="testBillingZeroPricing"/>
+          <include name="testRechargeJoinRide"/>
+          <include name="testBillingCustomisedPricing"/>
+          <include name="testEncashAmountShare"/>
+          <include name="testEncashAmountShareLater"/>
+          <include name="testRecharge"/>
+          <include name="setobjects"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RechargeEncashTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
